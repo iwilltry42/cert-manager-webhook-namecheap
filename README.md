@@ -2,7 +2,7 @@
 
 # Instructions for use with Let's Encrypt
 
-Thanks to [Addison van den Hoeven](https://github.com/Addyvan), from https://github.com/jetstack/cert-manager/issues/646
+Thanks to [Addison van den Hoeven](https://github.com/Addyvan), from https://github.com/cert-manager/cert-manager/issues/646
 
 Use helm to deploy this into your `cert-manager` namespace:
 
@@ -88,7 +88,7 @@ else they will have undetermined behaviour when used with cert-manager.
 **It is essential that you configure and run the test suite when creating a
 DNS01 webhook.**
 
-An example Go test file has been provided in [main_test.go](https://github.com/jetstack/cert-manager-webhook-example/blob/master/main_test.go).
+An example Go test file has been provided in [main_test.go](https://github.com/cert-manager/cert-manager-webhook-example/blob/master/main_test.go).
 
 You can run the test suite with:
 

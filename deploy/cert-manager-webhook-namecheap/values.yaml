@@ -13,7 +13,7 @@ certManager:
   serviceAccountName: cert-manager
 
 image:
-  repository: kelvie/cert-manager-webhook-namecheap
+  repository: iwilltry42/cert-manager-webhook-namecheap
   tag: latest
   pullPolicy: IfNotPresent
 
